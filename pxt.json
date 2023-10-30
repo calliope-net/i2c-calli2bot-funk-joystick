@@ -1,5 +1,6 @@
 {
     "name": "i2c-calli2bot-funk-joystick",
+    "version": "0.0.1",
     "dependencies": {
         "core": "*",
         "lcd-16x2": "github:calliope-net/lcd-16x2#v2.0.5",
