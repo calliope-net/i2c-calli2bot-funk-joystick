@@ -7,7 +7,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "calli2bot.ts"
+        "calli2bot.ts",
+        "calli2class.ts"
     ],
     "testFiles": [
         "test.ts"
