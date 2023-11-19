@@ -4,7 +4,7 @@
     "dependencies": {
         "core": "*",
         "lcd-16x2": "github:calliope-net/lcd-16x2#v2.0.5",
-        "calli2bot": "github:calliope-net/calli2bot#v0.0.1",
+        "calli2bot": "github:calliope-net/calli2bot#v1.0.1",
         "radio": "*"
     },
     "files": [
@@ -22,5 +22,22 @@
     "supportedTargets": [
         "calliopemini"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "pairing_mode": 1,
+                    "partial_flashing": 1,
+                    "dfu_service": 0,
+                    "event_service": 1,
+                    "device_info_service": 1
+                },
+                "stack_size": 2048,
+                "gatt_table_size": "0x800",
+                "sram_end": "0x20008000",
+                "RAM_SIZE": "\"32K\""
+            }
+        }
+    }
 }
